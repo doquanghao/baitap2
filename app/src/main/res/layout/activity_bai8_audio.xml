@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Bai8Audio">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/hinh_ambum"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/chidan" />
+
+    <TextView
+        android:id="@+id/tenbaihat"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tan vỡ" />
+
+    <TextView
+        android:id="@+id/tencasi"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chi dân" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/demthoigian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progressDrawable="@drawable/sting"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/thoigan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05:00" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/luilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/play_pause"
+            android:src="@drawable/round_skip_previous_black_36" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/play_pause"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pause"
+                android:src="@drawable/round_pause_circle_outline_black_36"
+                android:visibility="gone" />
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/outline_play_circle_outline_black_36" />
+        </RelativeLayout>
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="wrap_content"
+            android:id="@+id/chuyenbaitiep"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/play_pause"
+            android:src="@drawable/round_skip_next_black_36" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/laplai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/round_repeat_black_24" />
+
+            <androidx.constraintlayout.utils.widget.ImageFilterView
+                android:id="@+id/laplai1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:visibility="gone"
+                android:background="@color/hong"
+                android:src="@drawable/round_repeat_black_24" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

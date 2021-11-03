@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="400dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/a"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <Button
+                    android:id="@+id/do_1"
+                    android:layout_width="wrap_content"
+                    android:text="Đỏ"
+
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#FF0000"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Xanh"
+                    android:id="@+id/xanh"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#89FF00"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/cam"
+                    android:layout_width="wrap_content"
+                    android:text="Cam"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#FF9800"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/tim"
+                    android:layout_width="wrap_content"
+                    android:text="Tím"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#DA00FF"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/hong"
+                    android:layout_width="wrap_content"
+                    android:text="Hồng"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#FF6FA0"
+                    android:textAllCaps="false"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/vang"
+                    android:layout_width="wrap_content"
+                    android:text="Vàng"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#FFE500"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/vuong"
+                    android:layout_width="wrap_content"
+                    android:text="Vuông"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#FFE500"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/tron"
+                    android:layout_width="wrap_content"
+                    android:text="Tròn"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#FFE500"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:id="@+id/chunhat"
+                    android:layout_width="wrap_content"
+                    android:text="Chữ Nhật"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#FFE500"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
