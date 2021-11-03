@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable-v24/sting.xml" value="0.26296296296296295" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/button_do.xml" value="0.3728205128205128" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/cam.xml" value="0.3728205128205128" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/chunhat.xml" value="0.3728205128205128" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/fadein.xml" value="0.37864583333333335" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/hong.xml" value="0.3728205128205128" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/onhet.xml" value="0.37864583333333335" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/tim.xml" value="0.3728205128205128" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/tron.xml" value="0.3728205128205128" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/vang.xml" value="0.3728205128205128" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/vuong.xml" value="0.3728205128205128" />
+        <entry key="..\:/android/baitap2/app/src/main/res/drawable/xanh.xml" value="0.3728205128205128" />
+        <entry key="..\:/android/baitap2/app/src/main/res/layout/activity_animation.xml" value="0.3625" />
+        <entry key="..\:/android/baitap2/app/src/main/res/layout/activity_bai3.xml" value="0.3625" />
+        <entry key="..\:/android/baitap2/app/src/main/res/layout/activity_bai3a2.xml" value="0.3625" />
+        <entry key="..\:/android/baitap2/app/src/main/res/layout/activity_bai8_audio.xml" value="0.33" />
+        <entry key="..\:/android/baitap2/app/src/main/res/layout/activity_baitapvenhabai3.xml" value="0.20260416666666667" />
+        <entry key="..\:/android/baitap2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/android/baitap2/app/src/main/res/layout/activity_nhanbiethinhhoc.xml" value="0.20260416666666667" />
+        <entry key="..\:/android/baitap2/app/src/main/res/layout/activity_opengles.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
